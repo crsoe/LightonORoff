@@ -88,9 +88,7 @@ public class ConsoleTerminal {
     private void FileWrite() {
         try {
             FileWriter myWriter = new FileWriter("Phototransistor.txt");
-
             int x = Integer.parseInt(D);
-
             if (x<20){
                 myWriter.write("Light");
             }else {
